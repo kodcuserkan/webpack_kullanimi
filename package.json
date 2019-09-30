@@ -1,0 +1,25 @@
+{
+  "name": "webpack_kullanimi",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel-version": "babel --version",
+    "build": "./node_modules/.bin/webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/polyfill": "^7.6.0",
+    "@babel/preset-env": "^7.6.2",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.9"
+  },
+  "repository": {
+    "type": "git","url": "https://github.com/kodcuserkan/webpack_kullanimi.git"}
+}
